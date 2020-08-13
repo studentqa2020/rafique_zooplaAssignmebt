@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38358" started-at="2020-08-12T22:07:15 EDT" finished-at="2020-08-12T22:07:53 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.ZooplaAutomationRunner@1a1d6a08]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="38358" started-at="2020-08-12T22:07:15 EDT" finished-at="2020-08-12T22:07:53 EDT">
+      <class name="com.runner.ZooplaAutomationRunner">
+        <test-method status="PASS" signature="setupExtentsReport()[pri:0, instance:com.runner.ZooplaAutomationRunner@1a1d6a08]" name="setupExtentsReport" is-config="true" duration-ms="18" started-at="2020-08-12T22:07:15 EDT" finished-at="2020-08-12T22:07:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentsReport -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.ZooplaAutomationRunner@1a1d6a08]" name="setUpClass" is-config="true" duration-ms="343" started-at="2020-08-12T22:07:15 EDT" finished-at="2020-08-12T22:07:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.ZooplaAutomationRunner@1a1d6a08]" name="runScenario" duration-ms="37777" started-at="2020-08-12T22:07:16 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-12T22:07:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user , end to end testing from login to property select and logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Zoopla Automation   feature testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.ZooplaAutomationRunner@1a1d6a08]" name="tearDownClass" is-config="true" duration-ms="44" started-at="2020-08-12T22:07:53 EDT" finished-at="2020-08-12T22:07:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.ZooplaAutomationRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
